@@ -308,7 +308,7 @@ module ::JdbcSpec
     # see: abstract/quoting.rb
 
     # Camelcase column names need to be quoted.
-    # Nonquoted identifiers can contain only alphanumeric characters from your 
+    # Nonquoted identifiers can contain only alphanumeric characters from your
     # database character set and the underscore (_), dollar sign ($), and pound sign (#).
     # Database links can also contain periods (.) and "at" signs (@).
     # Oracle strongly discourages you from using $ and # in nonquoted identifiers.
